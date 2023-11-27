@@ -577,8 +577,17 @@ video {
   margin-bottom: 2.5rem;
 }
 
+.my-20 {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
 .mb-10 {
   margin-bottom: 2.5rem;
+}
+
+.mb-24 {
+  margin-bottom: 6rem;
 }
 
 .mb-40 {
@@ -599,10 +608,6 @@ video {
 
 .max-w-3xl {
   max-width: 48rem;
-}
-
-.max-w-6xl {
-  max-width: 72rem;
 }
 
 .flex-col {
@@ -631,10 +636,6 @@ video {
 .bg-strongCyan {
   --tw-bg-opacity: 1;
   background-color: hsl(171 66% 44% / var(--tw-bg-opacity));
-}
-
-.bg-\[url\(\'\.\.\/images\/bg-header-desktop\.png\'\)\] {
-  background-image: url('../images/bg-header-desktop.png');
 }
 
 .bg-\[url\(\'\.\.\/images\/bg-header-mobile\.png\'\)\] {
@@ -685,6 +686,10 @@ video {
   font-weight: 700;
 }
 
+.leading-9 {
+  line-height: 2.25rem;
+}
+
 .text-darkGrayishBlue {
   --tw-text-opacity: 1;
   color: hsl(210 10% 33% / var(--tw-text-opacity));
@@ -723,6 +728,13 @@ video {
 }
 */
 
+.section-container {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 72rem;
+  text-align: center;
+}
+
 .hover\:opacity-80:hover {
   opacity: 0.8;
 }
@@ -735,10 +747,6 @@ video {
 
   .sm\:bg-\[url\(\'\.\.\/images\/bg-header-desktop\.png\'\)\] {
     background-image: url('../images/bg-header-desktop.png');
-  }
-
-  .sm\:bg-contain {
-    background-size: contain;
   }
 
   .sm\:text-2xl {
@@ -772,10 +780,6 @@ video {
     --tw-space-y-reverse: 0;
     margin-top: calc(0px * calc(1 - var(--tw-space-y-reverse)));
     margin-bottom: calc(0px * var(--tw-space-y-reverse));
-  }
-
-  .md\:bg-\[url\(\'\.\.\/images\/bg-header-desktop\.png\'\)\] {
-    background-image: url('../images/bg-header-desktop.png');
   }
 
   .md\:text-5xl {

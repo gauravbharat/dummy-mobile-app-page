@@ -659,12 +659,12 @@ h5 {
   max-width: 48rem;
 }
 
-.max-w-md {
-  max-width: 28rem;
-}
-
 .max-w-6xl {
   max-width: 72rem;
+}
+
+.max-w-md {
+  max-width: 28rem;
 }
 
 .flex-col {
@@ -727,14 +727,14 @@ h5 {
   padding: 1rem;
 }
 
-.px-8 {
-  padding-left: 2rem;
-  padding-right: 2rem;
-}
-
 .px-10 {
   padding-left: 2.5rem;
   padding-right: 2.5rem;
+}
+
+.px-8 {
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 
 .pt-16 {
@@ -851,6 +851,40 @@ h5 {
     --tw-space-x-reverse: 0;
     margin-right: calc(1rem * var(--tw-space-x-reverse));
     margin-left: calc(1rem * calc(1 - var(--tw-space-x-reverse)));
+  }
+}
+
+.button-container {
+  .download-button {
+    border-radius: 9999px;
+  }
+  .download-button {
+    padding: 1rem;
+  }
+  .download-button {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  .download-button {
+    --tw-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+    --tw-shadow-colored: 0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+  }
+  .download-button {
+    transition-duration: 200ms;
+  }
+  .download-button:hover {
+    opacity: 0.8;
+  }
+  .download-button {
+    &.ios {
+      --tw-bg-opacity: 1;
+      background-color: hsl(171 66% 44% / var(--tw-bg-opacity));
+    }
+    &.mac {
+      --tw-bg-opacity: 1;
+      background-color: hsl(233 100% 69% / var(--tw-bg-opacity));
+    }
   }
 }
 

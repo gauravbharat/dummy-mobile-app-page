@@ -35,4 +35,15 @@
 
 .button-container {
   @apply flex flex-col justify-center w-full space-y-6 text-sm sm:text-xl text-white md:flex-row md:space-y-0 md:space-x-4;
+
+  .download-button {
+    @apply p-4 px-8 rounded-full shadow-lg duration-200 hover:opacity-80;
+    &.ios {
+      @apply bg-strongCyan;
+    }
+
+    &.mac {
+      @apply bg-lightBlue;
+    }
+  }
 }

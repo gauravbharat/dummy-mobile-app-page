@@ -604,10 +604,6 @@ h5 {
   pointer-events: none;
 }
 
-.fixed {
-  position: fixed;
-}
-
 .relative {
   position: relative;
 }
@@ -618,10 +614,6 @@ h5 {
 
 .top-0 {
   top: 0px;
-}
-
-.bottom-0 {
-  bottom: 0px;
 }
 
 .m-auto {
@@ -822,8 +814,8 @@ h5 {
 
 @media (min-width: 480px) {
   .section-paragraph {
-    font-size: 1.5rem;
-    line-height: 2rem;
+    font-size: 1.25rem;
+    line-height: 1.75rem;
   }
 }
 
@@ -1006,6 +998,10 @@ h5 {
   }
 }
 
+.\[\&\&\]\:mb-0.\[\&\&\]\:mb-0 {
+  margin-bottom: 0px;
+}
+
 .\[\&\&\]\:mb-16.\[\&\&\]\:mb-16 {
   margin-bottom: 4rem;
 }
@@ -1018,6 +1014,14 @@ h5 {
   margin-top: 0px;
 }
 
-.\[\&\&\]\:mb-0.\[\&\&\]\:mb-0 {
-  margin-bottom: 0px;
+.\[\&\&\]\:text-xl.\[\&\&\]\:text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+@media (min-width: 480px) {
+  .\[\&\&\]\:sm\:text-2xl.\[\&\&\]\:sm\:text-2xl {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
 }

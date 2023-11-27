@@ -30,7 +30,7 @@
 }
 
 .section-paragraph {
-  @apply max-w-3xl m-auto mb-24 text-lg text-center leading-9 sm:text-2xl text-grayishBlue;
+  @apply max-w-3xl m-auto mb-24 text-lg text-center leading-9 sm:text-xl text-grayishBlue;
 }
 
 .button-container {
